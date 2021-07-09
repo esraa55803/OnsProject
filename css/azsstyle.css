@@ -1,0 +1,649 @@
+*{
+    box-sizing: border-box;
+    
+}
+.nave{
+   /* position: static; */
+    background-color:rgba(9, 131, 106, 0.86);
+     border-radius: 7px;
+      display: flex;
+      direction: rtl;
+}
+.nave1{
+    border-radius: 7px;
+      display: flex;
+      direction: rtl;
+    background-color :rgba(4, 95, 77, 0.979);
+}
+.firstpadge{
+    height: 720px;
+  background-image: url(war.jpg);  
+  background-position: center;
+  background-size: cover;
+
+}
+.intro{
+    height: 640px;
+background-image: url(flow.jpg);
+background-size: cover;
+background-position: center;
+ text-align: center;
+    color: rgb(22, 59, 15);
+}
+.intro img{
+
+       border: solid rgb(10, 128, 79) 3px ; 
+       border-radius: 20%;
+       border-top: none;
+       border-left: none;
+    }
+
+    .intro h2{
+        padding-bottom: 20px;
+    }
+    .disc{
+direction: ltr;
+    color: black;
+    background-color: rgba(242, 250, 246, 0.616);
+    border-radius: 25%;
+    font-size: 1.3rem;
+    height: 400px;
+    border: 2px  rgb(10, 128, 79)  solid;
+    border-top: none;
+    border-right: none;
+   
+    }
+    .disc {
+        list-style-type: none;
+    }
+    .hhhhh{
+        background-image: url(https://i.pinimg.com/564x/7e/1d/0a/7e1d0a6dee70e284ca8c86b77683d413.jpg);
+        animation-name:pol;
+        animation-timing-function: step-start;
+        height: 450px;
+        animation-duration: 5s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: both;
+        border: 6px  rgb(10, 128, 79)  solid;
+        border-radius: 20%;
+
+    transition:  all 2s; 
+    }
+    @keyframes pol{
+        from{
+               background-image: url(https://i.pinimg.com/564x/7e/1d/0a/7e1d0a6dee70e284ca8c86b77683d413.jpg);
+           border-top: none;
+           border-right: none; 
+        }
+        50%{
+            background-image: url(https://media.istockphoto.com/vectors/family-reading-book-together-at-home-dad-mom-son-and-daughter-sitting-vector-id1236947640?k=6&m=1236947640&s=612x612&w=0&h=q-LacuyZOPjUSqm8cUJoFfDdKNDApWBnhneQwFUm8Ls=);
+            border-top: none;
+            border-left: none; 
+
+        }
+        to{
+            background-image: url(https://media.istockphoto.com/vectors/happy-family-parents-and-children-play-at-home-vector-id1299096922?k=6&m=1299096922&s=612x612&w=0&h=GKJGd7lCVDAZFUo7mx65PsdlCZU5Tz2gMMQgXHspuPU=);
+            border-top: none;
+            border-right: none; 
+        }
+        
+    }
+    
+       
+   .secdiv li{
+        padding: 5px;
+       margin: 10px;
+   }
+   .firstpadge form input{
+       background-color:rgba(26, 194, 166, 0.055);
+       border-radius: 15px; 
+       border: 2px solid;
+       border-color: rgba(5, 46, 49, 0.466);
+   }
+    .sub:hover,.in:hover,form input:hover{
+        background-color: rgba(37, 172, 138, 0.6);
+        width: 200px;
+        border-radius:20px ;
+
+    }
+    .sub{
+        display: block;
+        background-color: rgba(37, 172, 138, 0.1);
+        padding: 10px;
+        border-radius: 7px;
+        margin:auto;
+        
+    }
+    .sub a{
+        color: black;
+    }
+    .sub a:hover{
+        text-decoration: none;
+    }
+
+    .secdiv h4 ,#about h2,.disc,.lio{
+         font-family: 'Amiri', serif;
+        /* font-family: 'Vibes', cursive; */
+    }
+.sec1{
+    color: rgba(204, 226, 202, 0.959);
+    background-size: cover;
+    background-image: url(gre.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+}
+/* .bgo{
+ 
+  
+    border-bottom: solid white 1px;
+    
+    border-bottom-right-radius:5px ;
+} */
+.bgo ul{
+    margin-left: auto;
+}
+.dodo{
+height: 730px;
+width: 100%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position:center bottom */
+    ;
+}
+.ara{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 40px;
+}
+
+.ara1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.fok{
+    background-image: url(data:image/jpeg;base64,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);
+background-size: cover;
+background-repeat: no-repeat;
+height: 650px;
+
+}
+/* .formb{
+    background-color: rgba(153, 144, 133, 0.651);
+} */
+.naa{
+    display: inline-block;
+    text-decoration: none;
+    color:  rgb(236, 245, 235);
+    padding-top: 8px;
+    font-size: 1.4rem;
+    transition: .5s;
+    
+}
+.naa1{
+    display: block;
+    text-decoration: none;
+    color:  rgb(236, 245, 235);
+    padding-top: 8px;
+    font-size: 1.4rem;
+    transition: .5s;
+    padding-top:40pxpx ;
+
+    
+}
+.lio:hover .naa{
+    text-decoration: none;
+    background: white;
+    color:  rgb(155, 122, 16);
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.hlpo{
+   text-align: center;
+   font-style: italic;
+   color: rgb(116, 9, 158);
+}
+
+#sec3{
+    height: 600px;
+    background-image: url(https://image.freepik.com/free-photo/scandinavian-house-modern-design-with-copy-space_42251-43.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.LOGO{
+margin-right: auto;
+    width: 100px;
+    height:70px ;
+    display: flex;  
+}
+
+.LOGO img{
+    margin-left: 10px;
+
+}
+.lolo{
+    border-radius: 20%;
+}
+
+.clear{
+    clear: both;
+}
+.LOGO img{border-radius: 6px;
+    width: 100%;
+    height: 100%;
+}
+.gotosec{
+    height: 580px;
+    margin-top: 102px;
+    background-position:center;
+    width: 1535px;
+    background-image: url(war.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.poq{
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    text-align: end;
+    font-size: 1.5rem;
+    line-height: 2;
+    font-style: initial;
+    color: black;
+  
+   /* animation: colr 5s infinite ease-out; */
+    background-color: rgba(184, 194, 192, 0.514);
+    border-radius: 25px;
+    border: 6px solid rgb(0, 128, 90);
+    border-top: none;
+    padding: 40px;
+    border-bottom: none;
+}
+.dok{
+ 
+    display: block;
+margin: auto;
+margin-top: auto;
+    width: 70% ; 
+    color: white;
+    
+}
+.firstpadge1{
+    background-image: url(HOM.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    z-index: -3;
+}
+
+.holy{
+    display: block;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
+    border: 4px solid rgb(18, 155, 132);
+border-right: none;
+  
+  margin: auto;
+    width: 40%;
+   
+    background-color:rgba(108, 124, 119, 0.185) ;
+    /* background-color: rgba(129, 238, 202, 0.15); */
+}
+
+
+.firstpadge1{
+    position: relative;
+}
+.firstpadge1 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index:-1;
+    height: 400px;
+    background-color: rgba(14, 15, 15, 0.747);
+}
+
+
+.fel{
+/* float: right; */
+width: 100%;
+
+}
+
+@keyframes colr{
+    0%{
+        background-color: rgba(163, 289, 210, 0.29);
+color: black;
+    }
+    25%{
+        background-color: rgba(71, 219, 219, 0.281);
+        color: black
+    }
+    50%{
+        background-color: rgba(50, 211, 184, 0.24);
+        color: black
+    }
+    75%{
+        background-color: rgba(26, 194, 166, 0.055);
+        color: rgb(214, 232, 235)
+    }
+    90%{
+        background-color: rgba(37, 172, 138, 0.6);
+        color: white
+    }
+    100%{
+      background-color: rgba(127, 255, 212, 0.247);  
+      color: rgb(46, 45, 45);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ZENA  */
+
+#sec2{
+   direction: rtl;
+    border-radius: 2PX;
+    background-image: url(polk.jpg);
+    background-size:cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    height: 750px;
+  font-family: 'Amiri', serif;
+    color: rgb(75, 67, 67); 
+}
+
+
+
+/* .layer{
+    background-color: rgba(0, 0, 0,.2);
+    background-size: 100% 100%;
+    height: 100%;
+} */
+.layer .center{
+    padding-top: 40px;
+    color:black;
+    font-size: 2em;
+    font-weight: 700;
+    
+}
+.cover .slide{
+    padding-top: 20px;
+}
+
+.carousel{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.carousel-inner {
+    width: 85%;
+    height: 470px;
+}
+.carousel-inner .right{ 
+    padding: 10px;
+}
+
+.carousel-inner .title div{
+    width: 50%;
+    height: 30;
+    border-bottom: 2px solid rgb(7, 77, 59);
+}
+
+.carousel-inner .content{
+    padding: 10px 10px 10px 0;
+}
+.member {
+    width: 24%;
+    padding-right: 5px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.member img{
+    width: 100%;
+    transition: 1s transform;
+    border-radius: 10px;
+
+
+}
+.member .member-caption {
+    background-color: rgb(42,63,85,0.7);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    height: 100%;
+    transition: 1s opacity, 1s transform;
+    opacity: 0;
+    overflow: hidden;
+
+}
+.member:hover .member-caption {
+    left: 0;
+    opacity: 1;
+}
+.member:hover img {
+    transform: scale(1.1);
+}
+.member .member-caption h3 {
+    background-color: #2A3F55;
+    padding: 10px;
+    position: relative;
+    left: 100%;
+    top: 0;
+    transition: 1s left 1s;
+    font-size: 1em;
+
+}
+.member .member-caption p {
+    padding: 5px;
+    line-height: 1.1;
+    position: relative;
+    left: 120%;
+    top: 0;
+    transition: 1s left 1.3s;
+    font-size: 1em;
+}
+.member .member-caption button{
+    position: relative;
+    left: 120%;
+    top: 0;
+    transition: 1s left 1.3s;
+    padding-bottom: 10px;
+
+}
+.member:hover h3 {
+    left: 0;
+}
+.member:hover p {
+    left: 0;
+}
+.member:hover button {
+    left: 0;
+}
+
+
+
+.carousel-inner .title div{
+    direction: ltr;
+    color: rgb(75, 67, 67);
+    font-size: 4em;
+    font-weight: 500;
+}
+.carousel-inner .left{
+    margin-top: 50px;
+}
+
+.carousel-inner .left .img-container{
+    width: 370px;
+    height: 370px;
+    margin: auto;
+    border: 2px #333;
+}
+.carousel-inner .left .img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+
+
+
+.between{
+    width: 100%;
+    height: 4px;
+    background-color: #2A3F55;
+}
+
+
+
+#sec3{
+    background-image: url(POJ.jpg);
+    background-size:cover;
+    background-position: top center;
+    height: 640px;
+    font-family: 'Amiri', serif;
+    direction: ltr;
+    color: rgb(75, 67, 67);
+}
+
+#sec3 .carousel-inner .left .img-container{
+    width: 370px;
+    height: 370px;
+    margin: auto;
+    border: 2px #333;
+}
+
+#sec3 .member {
+    
+    float: right;
+}
+#sec3 .carousel-inner .content{
+    padding: 10px 0px 10px 10px;
+}
+#sec3 .carousel-inner .title div{
+    
+    text-align: right;
+    float: right;
+}
+#sec3 .carousel-inner .title{
+    padding-bottom: 10px;
+    width: 100%;
+    float: right;
+}
+footer ul li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer{
+    position: relative;
+    background-image: url(foot.jpg);
+ color:rgb(250, 139, 12);
+ padding-top: 10px;
+ padding-bottom: 10px;
+ background-position: center;
+ background-attachment: fixed;
+ background-size: cover;
+ height: 100px;
+ z-index: 2;
+}
+footer .fa-twitter{
+    color: #1DA1F2 ;
+}
+footer .fa-telegram{
+    color:#2692bd;
+}
+footer .fa-instagram{
+    color: #fb3958;
+}
+footer .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index:-1;
+    height: 100px;
+    background-color: rgba(14, 15, 15, 0.685);
+}
+footer i:hover{
+    opacity: .4;
+}
+
